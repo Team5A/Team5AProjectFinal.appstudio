@@ -9,7 +9,39 @@
   "borderWidth": "",
   "cached_js": null,
   "cached_js_script_hash": null,
+<<<<<<< Updated upstream
   "children": [],
+=======
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "journalEntry",
+        "Elements",
+        "txtJournalContent.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "journalEntry",
+        "Elements",
+        "lblEventName.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "journalEntry",
+        "Elements",
+        "twitterLogo.json"
+      ]
+    }
+  ],
+>>>>>>> Stashed changes
   "class": "",
   "designHeight": 0,
   "designWidth": 0,
