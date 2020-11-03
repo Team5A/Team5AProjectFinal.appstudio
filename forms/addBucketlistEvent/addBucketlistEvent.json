@@ -36,6 +36,24 @@
         "Elements",
         "ddLocation.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "addBucketlistEvent",
+        "Elements",
+        "btnCreateLocation.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "addBucketlistEvent",
+        "Elements",
+        "btnAddBucketList.json"
+      ]
     }
   ],
   "class": "",
