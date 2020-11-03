@@ -40,9 +40,8 @@ btnStopLocation.onclick = function() {
 };
 
 function onGeolocation(location) {
- var s;
-  s = "Longitude: " + location.coords.longitude  +  '\n';
-  s = s  +  "Latitude: " + location.coords.latitude  +  '\n';
+ var longitude = "Longitude: " + location.coords.longitude  +  '\n';
+  var latitude = "Latitude: " + location.coords.latitude  +  '\n';
  
  //different browsers return the timestamp in different formats.
  //this converts it if necessary.
@@ -53,7 +52,7 @@ if((location.timestamp)) {
  } else {
     gpsDate=location.timestamp;
   }
-  txtEnterLocation.value = s  +  "Timestamp: " + gpsDate;
+  txtEnterLocation.value = longitude + latitude  +  "Timestamp: " + gpsDate;
 }
 
 function errorCallBack(Error) {
@@ -62,7 +61,9 @@ function errorCallBack(Error) {
 }
 
 btnAddLocation.onclick = function() {
-  query = "INSERT INTO locations VALUES longitude, latitude"
+  let addLongitude = longitude.value
+  let addLatitude = latitude.value
+  query = "INSERT addLatitude addLongitute INTO locations"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
   if (req.status == 200) { //transit worked.
     if (req.responseText == 500) { // means the insert succeeded
@@ -73,16 +74,4 @@ btnAddLocation.onclick = function() {
     // transit error
     NSB.MsgBox("Error: " + req.status);
   }
-
-  query = "SELECT longitude, latitude from locations"
-  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
-
-  if (req.status == 200) { //transit worked.
-    //save the sate of the location
-    results = JSON.parse(req.responseText)
-  } else {
-    // transit error
-    NSB.MsgBox(`Error: ${req.status}`);
-  }
-  }
-  
+}
