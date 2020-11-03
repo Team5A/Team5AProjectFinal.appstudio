@@ -1,12 +1,17 @@
 req = ""
 query = ""
 results = ""
-pw = "JeremyBIA123"  // put your database password here
-userName = "jrp85607"
+pw = "bomber99"  // put your database password here
+userName = "bkm91466"
 database = "375groupa5"
 
+addBucketListEvent.onshow=function() {
+  ddLocation.clear()
+  query = "SELECT locations 
 
 
-ddLocation.onclick=function(){
-  
+
+
+btnCreateLocation.onclick=function(){
+  ChangeForm(addLocation)
 }
