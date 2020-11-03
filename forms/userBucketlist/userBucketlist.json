@@ -1,0 +1,122 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "centerScreen": "false",
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "userBucketlist",
+        "Elements",
+        "Header1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "userBucketlist",
+        "Elements",
+        "Container1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "userBucketlist",
+        "Elements",
+        "Button1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "userBucketlist",
+        "Elements",
+        "Button2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "userBucketlist",
+        "Elements",
+        "Button3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "userBucketlist",
+        "Elements",
+        "Button4.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "userBucketlist",
+        "Elements",
+        "Fliptoggle1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "userBucketlist",
+        "Elements",
+        "Fliptoggle4.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "userBucketlist",
+        "Elements",
+        "Fliptoggle5.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 460,
+  "designWidth": 800,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 460,
+  "id": "userBucketlist",
+  "language": "JavaScript",
+  "left": 0,
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "relative",
+  "script": null,
+  "scroll_options": "mouseWheel:true,  bounce:true, zoom:false",
+  "scrolling": "false",
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": 0,
+  "width": "800"
+}
