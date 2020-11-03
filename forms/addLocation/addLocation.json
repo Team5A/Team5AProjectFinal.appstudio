@@ -14,55 +14,46 @@
       "!type": "External",
       "file": [
         "forms",
-        "addBucketlistEvent",
+        "addLocation",
         "Elements",
-        "inptEventName.json"
+        "txtEnterLocation.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "addBucketlistEvent",
+        "addLocation",
         "Elements",
-        "txtEventDescription.json"
+        "btnSubmitLocation.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "addBucketlistEvent",
+        "addLocation",
         "Elements",
-        "ddLocation.json"
+        "btnStopLocation.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "addBucketlistEvent",
+        "addLocation",
         "Elements",
-        "btnCreateLocation.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "addBucketlistEvent",
-        "Elements",
-        "btnAddBucketList.json"
+        "btnAddLocation.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 0,
-  "designWidth": 0,
+  "designHeight": 460,
+  "designWidth": 320,
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "addBucketlistEvent",
+  "id": "addLocation",
   "language": "JavaScript",
   "left": "0",
   "locked": false,

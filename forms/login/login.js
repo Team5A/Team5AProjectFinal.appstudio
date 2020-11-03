@@ -7,7 +7,7 @@ let database = "375groupa5"
 let accountName = ""
 let pass = ""
 let loginCheck = []
-// test login is: username = aprendeguest0 and pw = 5e77e0fdc5f95d67210a845fc9fdd0
+// test login is: username = aprendeguest0 and pw = 5e77e0fdc5f95d67210a845fc9fdd0 
 let potentialLogins = []
 
 login.onshow=function(){
@@ -18,7 +18,7 @@ login.onshow=function(){
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
 
   if (req.status == 200) { //transit worked.
-    //save the sate of the customer
+    //save the sate of the customer 
     potentialLogins = JSON.parse(req.responseText)
     console.log(potentialLogins)
     console.log(potentialLogins[0])
@@ -26,33 +26,36 @@ login.onshow=function(){
     console.log("error")
 }
 
-
+ 
  //Begin actual login page
-
+ 
 
 btnLogin.onclick=function(){
   accountName = inptUsername.value
   console.log(accountName)
   pass = inptPassword.value
-
+  
   loginCheck = [accountName, pass]
   console.log(loginCheck)
-
+  
   let found = False
-
+  
   for (i = 0; i <= potentialLogins.length; i++) {
     if (JSON.stringify(loginCheck) == JSON.stringify(potentialLogins[i])) {
       found = True
       ChangeForm(userBucketlist)
       break
-    }
+    } 
   }
-
+  
   console.log(found)
-
+  
   if (found === False) {
     lblError.textContent = "That login is not recognized. Please try again."
     inptUsername.value = ""
     inptPassword.value = ""
   }
 }
+
+
+
