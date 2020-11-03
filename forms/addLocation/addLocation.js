@@ -4,6 +4,8 @@ results = ""
 pw = "bomber99"  // put your database password here
 userName = "bkm91466"
 database = "375groupa5"
+let currentUserEvents = []
+
 
 //Geolocation - this sample gets the current location.
  //It also shows the current speed and altitude.
@@ -61,17 +63,18 @@ function errorCallBack(Error) {
 }
 
 btnAddLocation.onclick = function() {
-  let addLongitude = longitude.value
-  let addLatitude = latitude.value
-  query = "INSERT addLatitude addLongitute INTO locations"
+  query =  query = "INSERT INTO locations VALUES (latitude, longitude)" + longitude + + latitude +  "';"
+  console.log(query)
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
-  if (req.status == 200) { //transit worked.
-    if (req.responseText == 500) { // means the insert succeeded
-      NSB.MsgBox("You have successfully added the Customer!")
-    } else
-     NSB.MsgBox("There was a problem with adding the Location to the database.")
-  } else {
-    // transit error
-    NSB.MsgBox("Error: " + req.status);
-  }
+ 
+ if (req.status == 200) { //transit worked.
+    currentLocations = JSON.parse(req.responseText)
+    console.log(currentLocations)
+  } else
+    console.log("error")
+
+  dataJson = JSON.stringify(currentLocations);
+  console.log(dataJson)
+  
+  updateTable(currentLocations)
 }
