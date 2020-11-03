@@ -43,6 +43,7 @@ btnLogin.onclick=function(){
   for (i = 0; i <= potentialLogins.length; i++) {
     if (JSON.stringify(loginCheck) == JSON.stringify(potentialLogins[i])) {
       found = True
+      ChangeForm(navigation)
       ChangeForm(userBucketlist)
       break
     }

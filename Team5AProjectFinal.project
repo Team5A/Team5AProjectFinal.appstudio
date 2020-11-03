@@ -31,6 +31,14 @@
           "!type": "External",
           "file": [
             "forms",
+            "navigation",
+            "navigation.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
             "userBucketlist",
             "userBucketlist.json"
           ]

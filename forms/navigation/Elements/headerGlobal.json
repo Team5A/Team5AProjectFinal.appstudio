@@ -9,7 +9,17 @@
   "bottom": "auto",
   "cached_js": "",
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e",
-  "children": [],
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "navigation",
+        "Elements",
+        "hamburgerGlobal.json"
+      ]
+    }
+  ],
   "class": "",
   "color": "",
   "display": "",
@@ -20,9 +30,9 @@
   "fontSize": 16,
   "fontStyle": "",
   "fontWeight": "bold",
-  "height": "40",
+  "height": "45",
   "hidden": "",
-  "id": "Header1",
+  "id": "headerGlobal",
   "justifyContent": "",
   "left": "auto",
   "onclick": "",
@@ -38,7 +48,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "text": "DataTable",
+  "text": "Bucketlist App",
   "top": "auto",
   "width": "100%"
 }
