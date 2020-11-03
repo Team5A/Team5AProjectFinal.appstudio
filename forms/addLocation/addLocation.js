@@ -61,10 +61,8 @@ function errorCallBack(Error) {
   NSB.MsgBox(Error.message);
 }
 
-let 
-
 btnAddLocation.onclick = function() {
-  query = "INSERT INTO locations VALUES ('Test')"
+  query = "INSERT INTO locations VALUES longitude, latitude"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
   if (req.status == 200) { //transit worked.
     if (req.responseText == 500) { // means the insert succeeded
