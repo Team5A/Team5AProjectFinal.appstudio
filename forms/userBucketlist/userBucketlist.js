@@ -89,7 +89,7 @@ Fliptoggle5.onchange = function() {
 
 
 userBucketlist.onshow=function(){
-  
+
   console.log(accountName)
 
   query = "SELECT event_name, description, date_added, date_completed FROM `events` e INNER JOIN bucketlists b ON e.bucket_id = b.bucket_id INNER JOIN `user` u ON u.user_id = b.user_id WHERE u.username = '" + accountName +  "';"
@@ -105,14 +105,6 @@ userBucketlist.onshow=function(){
 
   dataJson = JSON.stringify(currentUserEvents);
   console.log(dataJson)
-  
+
   updateTable(currentUserEvents)
 }
-
-
-
-
-
-
-
-

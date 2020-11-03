@@ -16,7 +16,7 @@
         "forms",
         "addBucketlistEvent",
         "Elements",
-        "inptEventName.json"
+        "addBucketListItem.json"
       ]
     },
     {
@@ -25,7 +25,7 @@
         "forms",
         "addBucketlistEvent",
         "Elements",
-        "txtEventDescription.json"
+        "addBucketListDescription.json"
       ]
     }
   ],
