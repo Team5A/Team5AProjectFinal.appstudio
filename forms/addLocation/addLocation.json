@@ -45,15 +45,6 @@
         "Elements",
         "btnAddLocation.json"
       ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "addLocation",
-        "Elements",
-        "txtAddLocation.json"
-      ]
     }
   ],
   "class": "",
