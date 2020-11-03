@@ -107,7 +107,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "",
+  "onshow": "userBucketlist.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "relative",
