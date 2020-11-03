@@ -24,12 +24,12 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": "auto",
+  "height": 33,
   "hidden": "",
   "icon": "",
   "iconTitle": "",
   "id": "btnSubmitLocation",
-  "left": 14,
+  "left": 8,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 300,
-  "value": "Submit",
-  "width": "auto"
+  "top": 240,
+  "value": "View Details",
+  "width": 120
 }
