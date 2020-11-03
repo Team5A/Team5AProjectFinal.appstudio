@@ -61,7 +61,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "",
+  "onshow": "login.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",
