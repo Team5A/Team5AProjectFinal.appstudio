@@ -16,7 +16,7 @@
         "forms",
         "addBucketlistEvent",
         "Elements",
-        "inptEventName.json"
+        "addBucketListItem.json"
       ]
     },
     {
@@ -25,34 +25,7 @@
         "forms",
         "addBucketlistEvent",
         "Elements",
-        "txtEventDescription.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "addBucketlistEvent",
-        "Elements",
-        "ddLocation.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "addBucketlistEvent",
-        "Elements",
-        "btnCreateLocation.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "addBucketlistEvent",
-        "Elements",
-        "btnAddBucketList.json"
+        "addBucketListDescription.json"
       ]
     }
   ],

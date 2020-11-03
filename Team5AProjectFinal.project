@@ -58,14 +58,6 @@
             "addBucketlistEvent",
             "addBucketlistEvent.json"
           ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "addLocation",
-            "addLocation.json"
-          ]
         }
       ],
       "configxml": null,
@@ -87,7 +79,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "addBucketlistEvent",
+      "firstform": "login",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
