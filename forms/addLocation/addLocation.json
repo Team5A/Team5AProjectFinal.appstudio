@@ -16,15 +16,6 @@
         "forms",
         "addLocation",
         "Elements",
-        "hdrGeoLocation.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "addLocation",
-        "Elements",
         "txtEnterLocation.json"
       ]
     },
@@ -45,11 +36,29 @@
         "Elements",
         "btnStopLocation.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "addLocation",
+        "Elements",
+        "btnAddLocation.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "addLocation",
+        "Elements",
+        "txtAddLocation.json"
+      ]
     }
   ],
   "class": "",
-  "designHeight": 0,
-  "designWidth": 0,
+  "designHeight": 460,
+  "designWidth": 320,
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
