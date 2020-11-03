@@ -87,7 +87,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "addLocation",
+      "firstform": "addBucketlistEvent",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
