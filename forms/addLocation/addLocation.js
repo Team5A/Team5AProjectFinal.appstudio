@@ -1,4 +1,12 @@
+/* 
+1) create on show to help us find current location (in geolocation.2)
+2)Set location variables to global. Don't create them anywhere else (don't use let in front of any thing else with 
+lat and long)
+3) 
 
+
+
+*/
 req = ""
 query = ""
 results = ""
@@ -11,18 +19,20 @@ let currentLocations = []
 //Geolocation - this sample gets the current location.
 //It also shows the current speed and altitude.
 
+/*
 //Set up global variables
 let gps;
-let passLongitude = ""
-let passLatitude = ""
-/*
+let longitude = ""
+let latitude = ""
+*/
+
 function Location() {
   longitude = -79.20989561;
   latitude = 43.73768353;
   btnStopLocation.disabled=true;
   lastRefresh=0;
 }
-*/
+
 btnSubmitLocation.onclick = function() {
  //This starts scanning the current location. It checks it every 5 seconds.
  //If it gets the data successfully, the handler function is called.
@@ -45,10 +55,10 @@ btnStopLocation.onclick = function() {
 };
 
 function onGeolocation(location) {
-  let longitude = "Longitude: " + location.coords.longitude  +  '\n';
-  let latitude = "Latitude: " + location.coords.latitude  +  '\n';
-  passLongitude = location.coords.longitude
-  passLatitude = location.coords.latitude
+  longitude = "Longitude: " + location.coords.longitude  +  '\n';
+  latitude = "Latitude: " + location.coords.latitude  +  '\n';
+  /*passLongitude = location.coords.longitude
+  passLatitude = location.coords.latitude*/
  //different browsers return the timestamp in different formats.
  //this converts it if necessary.
 
