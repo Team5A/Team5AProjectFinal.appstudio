@@ -1,18 +1,20 @@
-/*let requestURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyCE-pjULPU_Gp5Qf0qL39tVsdJBX55J0cY&location=41.265330,-95.949360&type=tourist_attraction&radius=50000"*/
-let requestURL = ""
-
+// requestURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyCE-pjULPU_Gp5Qf0qL39tVsdJBX55J0cY&location=41.265330,-95.949360&type=tourist_attraction&radius=50000"let 
+requestURL = ""
 
 
 let gps;
-let longitude = ""
-let latitude = ""
+let longitude1 = ""
+let latitude1 = ""
 
 
-function onGeolocation(location) {
-  let longitude = "Longitude: " + location.coords.longitude  +  '\n';
-  let latitude = "Latitude: " + location.coords.latitude  +  '\n';
-  passLongitude = location.coords.longitude
-  passLatitude = location.coords.latitude
+let passLongitude2 = ""
+let passLatitude2 = ""
+
+function onGeolocation1(location) {
+  longitude = "Longitude: " + location.coords.longitude  +  '\n';
+  latitude = "Latitude: " + location.coords.latitude  +  '\n';
+ passLongitude2 = location.coords.longitude
+ passLatitude2 = location.coords.latitude
 }
 
 
@@ -76,8 +78,10 @@ function onGeolocation(location) {
   s = s  +  "Accuracy(altitude): " + location.coords.altitudeAccuracy  +  " "  +  '\n';
  //different browsers return the timestamp in different formats.
  //this converts it if necessary.
- lblVNA.value= location.coords.longitude 
- lblVNA2.value = location.coords.latitude
+  //lblVNA.value= location.coords.longitude 
+  //lblVNA2.value = location.coords.latitude
+  longitude1 = location.coords.longitude
+  latitude1 = location.coords.latitude
 }
 
 function errorCallBack(Error) {
@@ -89,11 +93,24 @@ function errorCallBack(Error) {
 viewNearbyAttractions.onshow=function(){
   options={timeout: 5000, maximumAge: 5000, enableHighAccuracy: true};
   gps=navigator.geolocation.watchPosition(onGeolocation, errorCallBack, options);
-  latitude=lblVNA.value
-  longitude=lblVNA2.value
-  console.log(latitude)
-  console.log(longitude)
+  //lblVNA.value = latitude
+  //lblVNA2.value = longitude
+  //latitude=lblVNA.value
+  //longitude=lblVNA2.value
+  console.log(navigator.geolocation.watchPosition)
+  console.log(gps)
+  console.log(latitude1)
+  console.log(longitude1)
+  console.log(requestURL)
+  requestURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyCE-pjULPU_Gp5Qf0qL39tVsdJBX55J0cY&location=" + latitude1 + "," + longitude1 + "&type=tourist_attraction&radius=50000"
+  //requestURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyCE-pjULPU_Gp5Qf0qL39tVsdJBX55J0cY&location=41.265330,-95.949360&type=tourist_attraction&radius=50000"
   
-  requestURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyCE-pjULPU_Gp5Qf0qL39tVsdJBX55J0cY&location=" + latitude + "," + longitude + "&type=tourist_attraction&radius=50000"
-  
-}
+  }
+
+
+
+
+
+
+
+
