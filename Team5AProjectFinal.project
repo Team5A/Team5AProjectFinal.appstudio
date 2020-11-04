@@ -47,8 +47,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "journalEntry",
-            "journalEntry.json"
+            "eventDetails",
+            "eventDetails.json"
           ]
         },
         {
@@ -65,6 +65,14 @@
             "forms",
             "addBucketlistEvent",
             "addBucketlistEvent.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "addLocation",
+            "addLocation.json"
           ]
         }
       ],

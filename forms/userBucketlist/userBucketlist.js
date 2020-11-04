@@ -5,6 +5,8 @@ pw = "JeremyBIA123"  // put your database password here
 userName = "jrp85607"
 database = "375groupa5"
 let currentUserEvents = []
+let eventName = ""
+let eventDesc = ""
 
 // class values are here:
 // http://getbootstrap.com/css/#type-alignment
@@ -32,6 +34,9 @@ DataTable1.onclick = function(event) {
   row = event.target._DT_CellIndex.row;
   col = event.target._DT_CellIndex.column;
   NSB.MsgBox("Click on "  +  row  +  ", "  +  col  +  ". Value is '"  +  currentUserEvents[row][col]  +  "'.");
+  eventName = currentUserEvents[row][col]
+  eventDesc = currentUserEvents[row][col + 1]
+  ChangeForm(eventDetails)
 };
 
 

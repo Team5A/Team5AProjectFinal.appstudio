@@ -15,6 +15,9 @@ hamburgerGlobal.onclick = function(s) {
   if(s == "Journal Entry") {
   ChangeForm(journalEntry)
   }
+  if(s == "Add Location") {
+  ChangeForm(addLocation)
+  }
 };
 
 
