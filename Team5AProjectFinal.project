@@ -55,8 +55,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "bucketList",
-            "bucketList.json"
+            "addLocation",
+            "addLocation.json"
           ]
         },
         {
@@ -65,14 +65,6 @@
             "forms",
             "addBucketlistEvent",
             "addBucketlistEvent.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "addLocation",
-            "addLocation.json"
           ]
         }
       ],
