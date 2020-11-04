@@ -13,14 +13,16 @@ let currentLocations = []
 
 //Set up global variables
 let gps;
-
+let passLongitude = ""
+let passLatitude = ""
+/*
 function Location() {
   longitude = -79.20989561;
   latitude = 43.73768353;
   btnStopLocation.disabled=true;
   lastRefresh=0;
 }
-
+*/
 btnSubmitLocation.onclick = function() {
  //This starts scanning the current location. It checks it every 5 seconds.
  //If it gets the data successfully, the handler function is called.
@@ -43,9 +45,10 @@ btnStopLocation.onclick = function() {
 };
 
 function onGeolocation(location) {
-  var longitude = "Longitude: " + location.coords.longitude  +  '\n';
-  var latitude = "Latitude: " + location.coords.latitude  +  '\n';
- 
+  let longitude = "Longitude: " + location.coords.longitude  +  '\n';
+  let latitude = "Latitude: " + location.coords.latitude  +  '\n';
+  passLongitude = location.coords.longitude
+  passLatitude = location.coords.latitude
  //different browsers return the timestamp in different formats.
  //this converts it if necessary.
 
@@ -64,7 +67,7 @@ function errorCallBack(Error) {
 
 
 btnAddLocation.onclick = function() {
-  query = "INSERT INTO locations (latitude, longitude, google_url) VALUES (" + latitude + "," + longitude + ", 'test');"
+  query = "INSERT INTO locations (latitude, longitude, google_url) VALUES (" + passLatitude + "," + passLongitude + ", 'test');"
   console.log(query)
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
  
