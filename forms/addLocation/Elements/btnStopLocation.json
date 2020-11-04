@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnStopLocation",
-  "left": 177,
+  "left": 179,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,11 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
+<<<<<<< Updated upstream
   "top": 287,
+=======
+  "top": 243,
+>>>>>>> Stashed changes
   "value": "Cancel",
   "width": 108
 }
