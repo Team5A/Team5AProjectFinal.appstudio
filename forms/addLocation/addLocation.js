@@ -77,11 +77,7 @@ function errorCallBack(Error) {
 
 
 btnAddLocation.onclick = function() {
-<<<<<<< Updated upstream
   query = "INSERT INTO locations (latitude, longitude, google_url) VALUES (" + passLatitude + "," + passLongitude + ", 'test');"
-=======
-  query =  query = "INSERT INTO locations (latitude, longitude)" + longitude + + latitude +  "';"
->>>>>>> Stashed changes
   console.log(query)
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
  
