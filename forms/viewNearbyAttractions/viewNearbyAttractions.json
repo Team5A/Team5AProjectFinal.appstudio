@@ -27,24 +27,6 @@
         "Elements",
         "txtTouristAttractions.json"
       ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "viewNearbyAttractions",
-        "Elements",
-        "lblVNA.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "viewNearbyAttractions",
-        "Elements",
-        "lblVNA2.json"
-      ]
     }
   ],
   "class": "",
