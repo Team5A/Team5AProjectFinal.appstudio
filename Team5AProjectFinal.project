@@ -71,8 +71,13 @@
           "!type": "External",
           "file": [
             "forms",
+<<<<<<< Updated upstream
             "mapForm",
             "mapForm.json"
+=======
+            "viewNearbyAttractions",
+            "viewNearbyAttractions.json"
+>>>>>>> Stashed changes
           ]
         }
       ],
@@ -96,9 +101,13 @@
       "expanded_pmp": null,
       "extraheaders": null,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "firstform": "login",
 =======
       "firstform": "addLocation",
+>>>>>>> Stashed changes
+=======
+      "firstform": "viewNearbyAttractions",
 >>>>>>> Stashed changes
       "fontFamily": "system",
       "homescreenTitle": "",
