@@ -66,6 +66,14 @@
             "addBucketlistEvent",
             "addBucketlistEvent.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "mapForm",
+            "mapForm.json"
+          ]
         }
       ],
       "configxml": null,
@@ -87,7 +95,11 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
+<<<<<<< Updated upstream
       "firstform": "login",
+=======
+      "firstform": "addLocation",
+>>>>>>> Stashed changes
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
