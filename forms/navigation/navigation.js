@@ -12,8 +12,8 @@ hamburgerGlobal.onclick = function(s) {
   if(s == "User Bucketlist") {
   ChangeForm(userBucketlist)
   }
-  if(s == "Journal Entry") {
-  ChangeForm(journalEntry)
+  if(s == "Friends Bucketlist") {
+  ChangeForm(friendsBucketlist)
   }
   if(s == "Add Location") {
   ChangeForm(addLocation)

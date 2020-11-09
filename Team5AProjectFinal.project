@@ -74,6 +74,14 @@
             "viewNearbyAttractions",
             "viewNearbyAttractions.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "friendsBucketlist",
+            "friendsBucketlist.json"
+          ]
         }
       ],
       "configxml": null,

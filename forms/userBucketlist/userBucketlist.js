@@ -19,6 +19,7 @@ let columns1 = [
 
 function Main() {
   updateTable();
+  updateFriendsTable();
   }
 
 function updateTable(Events) {

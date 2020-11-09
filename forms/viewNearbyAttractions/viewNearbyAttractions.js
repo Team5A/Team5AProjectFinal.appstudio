@@ -1,3 +1,4 @@
+/*
 // requestURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyCE-pjULPU_Gp5Qf0qL39tVsdJBX55J0cY&location=41.265330,-95.949360&type=tourist_attraction&radius=50000"let 
 requestURL = ""
 
@@ -56,7 +57,7 @@ function callAPI(URL) {
     xhttp.setRequestHeader('rankby','distance')
     xhttp.setRequestHeader('type','restaurant')
     */
-
+/*
     // make the API request
     xhttp.addEventListener('load', onXHRLoad)
     xhttp.send()
@@ -106,7 +107,7 @@ viewNearbyAttractions.onshow=function(){
   //requestURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyCE-pjULPU_Gp5Qf0qL39tVsdJBX55J0cY&location=41.265330,-95.949360&type=tourist_attraction&radius=50000"
   
   }
-
+*/
 
 
 

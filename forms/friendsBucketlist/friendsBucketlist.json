@@ -1,0 +1,122 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "centerScreen": "false",
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "friendsBucketlist",
+        "Elements",
+        "placeholderHeaderFriends.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "friendsBucketlist",
+        "Elements",
+        "friendsContainer.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "friendsBucketlist",
+        "Elements",
+        "btnFriends1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "friendsBucketlist",
+        "Elements",
+        "btnFriends2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "friendsBucketlist",
+        "Elements",
+        "btnFriends3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "friendsBucketlist",
+        "Elements",
+        "btnFriends4.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "friendsBucketlist",
+        "Elements",
+        "swtFlip1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "friendsBucketlist",
+        "Elements",
+        "swtFlip2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "friendsBucketlist",
+        "Elements",
+        "swtFlip3.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 460,
+  "designWidth": 800,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 460,
+  "id": "friendsBucketlist",
+  "language": "JavaScript",
+  "left": 0,
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "friendsBucketlist.onshow()",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "relative",
+  "script": null,
+  "scroll_options": "mouseWheel:true,  bounce:true, zoom:false",
+  "scrolling": "false",
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": 0,
+  "width": "800"
+}
