@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnCreateLocation",
-  "left": 151,
+  "left": 154,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 238,
+  "top": 261,
   "value": "If you don't see you location add it here.",
   "width": 150
 }

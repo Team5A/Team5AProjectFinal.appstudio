@@ -16,6 +16,15 @@
         "forms",
         "addBucketlistEvent",
         "Elements",
+        "placeholderHeader2Copy.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "addBucketlistEvent",
+        "Elements",
         "inptEventName.json"
       ]
     },

@@ -13,10 +13,11 @@ let eventDescFriend = ""
 // class values are here:
 // http://getbootstrap.com/css/#type-alignment
 let columnsFriendsEvents = [
+            {title: "Friend Name"},
             {title: "Event"},
             {title: "Description"},
             {title: "Date Added"},
-            {title: "Date Completed"},
+            {title: "Date Completed"}
         ];
 /*
 function MainFriends() {
@@ -98,8 +99,13 @@ swtFlip3.onchange = function() {
 friendsBucketlist.onshow=function(){
   
   console.log(accountName)
+  
+  /*
   accountName = "JPlummer"
   query = "SELECT event_name, description, date_added, date_completed FROM `events` e INNER JOIN bucketlists b ON e.bucket_id = b.bucket_id INNER JOIN `user` u ON u.user_id = b.user_id WHERE u.username = '" + accountName +  "';"
+  */
+  query = "SELECT CONCAT(first_name, ' ',last_name) AS 'Name', e.event_name, e.description, e.date_added, e.date_completed FROM `events` e INNER JOIN bucketlists b ON e.bucket_id = b.bucket_id INNER JOIN `user` u ON u.user_id = b.user_id INNER JOIN friends f ON f.user_id = u.user_id WHERE f.friend_id IN (SELECT user_id FROM `user` WHERE username = '" + accountName + "');"
+  
   console.log(query)
 
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)

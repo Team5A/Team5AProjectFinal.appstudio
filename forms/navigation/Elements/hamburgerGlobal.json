@@ -30,7 +30,7 @@
   "icon": "menu",
   "iconTitle": "",
   "id": "hamburgerGlobal",
-  "items": "User Bucketlist\nFriends Bucketlist\nAdd Location\n-\n*Item 3 (disabled)",
+  "items": "User Bucketlist\nFriends Bucketlist\nAdd Bucketlist Event\nAdd Location\n-\n*Item 3 (disabled)",
   "left": "auto",
   "mAll": "",
   "mBottom": "",
