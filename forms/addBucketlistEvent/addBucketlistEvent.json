@@ -34,7 +34,7 @@
         "forms",
         "addBucketlistEvent",
         "Elements",
-        "txtEventDescription1.json"
+        "inptCurrentDate.json"
       ]
     },
     {
@@ -43,7 +43,7 @@
         "forms",
         "addBucketlistEvent",
         "Elements",
-        "ddLocation.json"
+        "inptUserID.json"
       ]
     },
     {
@@ -52,7 +52,7 @@
         "forms",
         "addBucketlistEvent",
         "Elements",
-        "btnCreateLocation.json"
+        "btnAddEvent.json"
       ]
     },
     {
@@ -61,16 +61,25 @@
         "forms",
         "addBucketlistEvent",
         "Elements",
-        "btnAddBucketList.json"
+        "inptBucketDescription.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "addBucketlistEvent",
+        "Elements",
+        "Label1.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 0,
-  "designWidth": 0,
+  "designHeight": 320,
+  "designWidth": 460,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 460,
+  "height": 320,
   "id": "addBucketlistEvent",
   "language": "JavaScript",
   "left": "0",
@@ -88,5 +97,5 @@
   "style": "",
   "theme": "",
   "top": "0",
-  "width": 320
+  "width": 460
 }
