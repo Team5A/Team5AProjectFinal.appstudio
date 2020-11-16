@@ -82,6 +82,14 @@
             "friendsBucketlist",
             "friendsBucketlist.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "searchActivities",
+            "searchActivities.json"
+          ]
         }
       ],
       "configxml": null,

@@ -21,6 +21,9 @@ hamburgerGlobal.onclick = function(s) {
   if(s == "Add Location") {
   ChangeForm(addLocation)
   }
+  if(s == "Search Activities") {
+  ChangeForm(searchActivities)
+  }
 };
 
 
