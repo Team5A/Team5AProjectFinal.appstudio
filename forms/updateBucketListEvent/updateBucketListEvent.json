@@ -1,0 +1,101 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "updateBucketListEvent",
+        "Elements",
+        "ddBucketlistUpdate.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "updateBucketListEvent",
+        "Elements",
+        "Label2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "updateBucketListEvent",
+        "Elements",
+        "Input1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "updateBucketListEvent",
+        "Elements",
+        "Input2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "updateBucketListEvent",
+        "Elements",
+        "Input3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "updateBucketListEvent",
+        "Elements",
+        "Input4.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "updateBucketListEvent",
+        "Elements",
+        "btnUpdateItem.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 320,
+  "designWidth": 460,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 320,
+  "id": "updateBucketListEvent",
+  "language": "JavaScript",
+  "left": "0",
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "absolute",
+  "script": null,
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": "0",
+  "width": 460
+}
