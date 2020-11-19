@@ -58,18 +58,19 @@ btnUpdateItem.onclick = function() {
   if (found == false)
   console.log("That event name is not in the database.")
   else if (found == true) {
-    query = `UPDATE events SET event_name = '${newbucketname}' WHERE event_name = '${oldbucketname}', description = '${newbucketdescription}' WHERE description = '${oldbucketdescription}', bucket_id = '${newbucketid}' WHERE bucket_id = '${oldbucketid}', date_added = '${newbucketdate}' WHERE date_added = '${oldbucketdate}'`
+    query = `UPDATE events SET event_name = '${newbucketname}' WHERE event_name = '${oldbucketname}'  description = '${newbucketdescription}' WHERE description = '${oldbucketdescription}' bucket_id = '${newbucketid}' WHERE bucket_id = '${oldbucketid}' date_added = '${newbucketdate}' WHERE date_added = '${oldbucketdate}'`
     //alert(query)
-    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
+     req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
 
   if (req.status == 200) { //transit worked.
       if (req.responseText == 500) { // means the update succeeded
+      console.log(`You have successfully updated the bucketlist item!`)
         // reset controls to original state
         inptNewUserID.value = ""
         inptNewBucketlistName.value = ""
         inptNewBucketlistDescription.value = ""
         inptNewCurrentDate.value = ""
-        // ddBucketlistUpdate.value = "Event"
+        ddBucketlistUpdate.value = "Bucketlist Item"
       } else
         console.log(`There was a problem changing the Events name.`)
     } else
@@ -83,5 +84,16 @@ btnUpdateItem.onclick = function() {
   
     if (req.status == 200) { //transit worked.
     results = JSON.parse(req.responseText)
+  }
+ if (results.length == 0) {
+    // if no customers in a table brings back this message
+    console.log("There are no customers in tabel.")
+  } else {
+    // putting new list of customers into txtDelete
+    let updateBucketListEvent = ""
+    for (i = 0; i <= results.length - 1; i++)
+      updateBucketListEvent = updateBucketListEvent + results[i] + "\n"
+    // change value of text area
+    txtUpdatedEvent.value = updateBucketListEvent
   }
 }
