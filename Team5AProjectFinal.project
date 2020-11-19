@@ -98,6 +98,14 @@
             "updateBucketListEvent",
             "updateBucketListEvent.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "timeZone",
+            "timeZone.json"
+          ]
         }
       ],
       "configxml": null,
@@ -119,7 +127,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "updateBucketListEvent",
+      "firstform": "login",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
