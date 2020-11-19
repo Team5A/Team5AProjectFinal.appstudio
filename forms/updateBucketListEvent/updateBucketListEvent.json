@@ -16,6 +16,15 @@
         "forms",
         "updateBucketListEvent",
         "Elements",
+        "placeholderHeaderUpdateBucketlist.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "updateBucketListEvent",
+        "Elements",
         "ddBucketlistUpdate.json"
       ]
     },

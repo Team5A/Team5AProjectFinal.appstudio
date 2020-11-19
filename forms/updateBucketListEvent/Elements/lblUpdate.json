@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblUpdate",
   "labelStyle": "text",
-  "left": 15,
+  "left": 13,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 14,
+  "top": 55,
   "value": "Pick a bucketlist item you want to update:",
   "width": "auto"
 }

@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnSearchActivities",
-  "left": 13,
+  "left": 14,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 162,
+  "top": 214,
   "value": "Search",
   "width": "auto"
 }

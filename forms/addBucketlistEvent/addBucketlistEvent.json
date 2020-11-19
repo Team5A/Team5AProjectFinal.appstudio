@@ -63,15 +63,6 @@
         "Elements",
         "inptBucketDescription.json"
       ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "addBucketlistEvent",
-        "Elements",
-        "Label1.json"
-      ]
     }
   ],
   "class": "",
