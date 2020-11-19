@@ -72,6 +72,15 @@
         "Elements",
         "btnUpdateItem.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "updateBucketListEvent",
+        "Elements",
+        "txtUpdatedEvent.json"
+      ]
     }
   ],
   "class": "",
