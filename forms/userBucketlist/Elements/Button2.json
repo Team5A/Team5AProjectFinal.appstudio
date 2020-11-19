@@ -2,7 +2,7 @@
   "!type": "Button_bs4",
   "ChangeForm": "",
   "appearance": " btn-primary",
-  "backgroundColor": "",
+  "backgroundColor": "#add8e6",
   "badge": "",
   "badgeAppearance": " btn-info",
   "blockLevel": "",

@@ -2,14 +2,23 @@
   "!type": "Header",
   "alignContent": "",
   "alignItems": "",
-  "backgroundColor": "lightgray",
-  "borderColor": "",
+  "backgroundColor": "#add8e6",
+  "borderColor": "Transparent",
   "borderStyle": "",
   "borderWidth": "",
   "bottom": "auto",
   "cached_js": "",
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e",
   "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "navigation",
+        "Elements",
+        "Image3.json"
+      ]
+    },
     {
       "!type": "External",
       "file": [
@@ -34,7 +43,7 @@
   "hidden": "",
   "id": "headerGlobal",
   "justifyContent": "",
-  "left": "auto",
+  "left": 0,
   "onclick": "",
   "onmousedown": "",
   "onmousemove": "",
@@ -48,7 +57,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "text": "Bucketlist App",
-  "top": "auto",
+  "text": "",
+  "top": 0,
   "width": "100%"
 }

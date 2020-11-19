@@ -2,11 +2,11 @@
   "!type": "Hamburger_bs4",
   "align": " dropdown-menu-right",
   "appearance": " btn-secondary",
-  "backgroundColor": "",
+  "backgroundColor": "#add8e6",
   "badge": "",
   "badgeAppearance": " badge-info",
   "blockLevel": "",
-  "borderColor": "transparent",
+  "borderColor": "Transparent",
   "borderStyle": "",
   "borderWidth": "",
   "bottom": "auto",
@@ -25,7 +25,7 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": "auto",
+  "height": 49,
   "hidden": "",
   "icon": "menu",
   "iconTitle": "",
@@ -63,5 +63,5 @@
   "style": "float:right;",
   "top": "auto",
   "value": "",
-  "width": "auto"
+  "width": 51
 }

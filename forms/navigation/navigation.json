@@ -21,8 +21,8 @@
     }
   ],
   "class": "",
-  "designHeight": 0,
-  "designWidth": 0,
+  "designHeight": 460,
+  "designWidth": 330,
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
@@ -43,5 +43,5 @@
   "style": "",
   "theme": "",
   "top": "0",
-  "width": 320
+  "width": "330"
 }
