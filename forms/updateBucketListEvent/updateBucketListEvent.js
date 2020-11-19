@@ -22,7 +22,6 @@ if (req.status == 200) { //transit worked.
 }
 
 let oldbucketname = ""
-let oldbucketid = ""
 let oldbucketdate = ""
 let oldbucketdescription = ""
 
@@ -32,7 +31,6 @@ ddBucketlistUpdate.onclick = function(s) {
   else {
     ddBucketlistUpdate.value = s
       oldbucketname = s
-      oldbucketid = s
       oldbucketdate = s
       oldbucketdescription = s
   }
@@ -40,7 +38,6 @@ ddBucketlistUpdate.onclick = function(s) {
 
 btnUpdateItem.onclick = function() {
   let newbucketname = inptNewBucketlistName.value
-  let newbucketid = inptNewUserID.value
   let newbucketdate = inptNewCurrentDate.value
   let newbucketdescription = inptNewBucketlistDescription.value
    
@@ -58,7 +55,15 @@ btnUpdateItem.onclick = function() {
   if (found == false)
   console.log("That event name is not in the database.")
   else if (found == true) {
-    query = `UPDATE events SET event_name = '${newbucketname}' WHERE event_name = '${oldbucketname}'  description = '${newbucketdescription}' WHERE description = '${oldbucketdescription}' bucket_id = '${newbucketid}' WHERE bucket_id = '${oldbucketid}' date_added = '${newbucketdate}' WHERE date_added = '${oldbucketdate}'`
+   
+   //query = `UPDATE events SET event_name = '${newbucketname}' WHERE event_name = '${oldbucketname}'  description = '${newbucketdescription}' WHERE description = '${oldbucketdescription}' bucket_id = '${newbucketid}' WHERE bucket_id = '${oldbucketid}' date_added = '${newbucketdate}' WHERE date_added = '${oldbucketdate}'`
+  query = "UPDATE events SET event_name = '" + newbucketname  +   "', description = '" + newbucketdescription + "', date_added = '" + newbucketdate + "' WHERE event_name = '" + oldbucketname + "'"
+
+    
+  //UPDATE events SET event_name = 'run with the bulls test' , description =  'testdescription', date_added = '2020-11-19'
+// WHERE event_name = 'run with the bulls';
+    
+    
     //alert(query)
      req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
 
@@ -66,7 +71,6 @@ btnUpdateItem.onclick = function() {
       if (req.responseText == 500) { // means the update succeeded
       console.log(`You have successfully updated the bucketlist item!`)
         // reset controls to original state
-        inptNewUserID.value = ""
         inptNewBucketlistName.value = ""
         inptNewBucketlistDescription.value = ""
         inptNewCurrentDate.value = ""
