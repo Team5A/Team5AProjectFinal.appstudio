@@ -25,7 +25,7 @@
         "forms",
         "updateBucketListEvent",
         "Elements",
-        "Label2.json"
+        "lblUpdate.json"
       ]
     },
     {
@@ -34,7 +34,7 @@
         "forms",
         "updateBucketListEvent",
         "Elements",
-        "Input1.json"
+        "inptNewUserID.json"
       ]
     },
     {
@@ -43,7 +43,7 @@
         "forms",
         "updateBucketListEvent",
         "Elements",
-        "Input2.json"
+        "inptNewBucketlistName.json"
       ]
     },
     {
@@ -52,7 +52,7 @@
         "forms",
         "updateBucketListEvent",
         "Elements",
-        "Input3.json"
+        "inptNewBucketlistDescription.json"
       ]
     },
     {
@@ -61,7 +61,7 @@
         "forms",
         "updateBucketListEvent",
         "Elements",
-        "Input4.json"
+        "inptNewCurrentDate.json"
       ]
     },
     {
