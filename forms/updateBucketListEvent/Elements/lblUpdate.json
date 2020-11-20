@@ -17,9 +17,9 @@
   "fontWeight": "",
   "height": "auto",
   "hidden": "",
-  "id": "Label1",
+  "id": "lblUpdate",
   "labelStyle": "text",
-  "left": 60,
+  "left": 13,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 272,
-  "value": "Label",
-  "width": 95
+  "top": 55,
+  "value": "Pick a bucketlist item you want to update:",
+  "width": "auto"
 }

@@ -12,17 +12,23 @@ hamburgerGlobal.onclick = function(s) {
   if(s == "User Bucketlist") {
   ChangeForm(userBucketlist)
   }
-  if(s == "Friends Bucketlist") {
+  if(s == "Friends Bucketlists") {
   ChangeForm(friendsBucketlist)
   }
   if(s == "Add Bucketlist Event") {
   ChangeForm(addBucketlistEvent)
   }
+  if(s == "Update Bucketlist Event") {
+  ChangeForm(updateBucketListEvent)
+  }
   if(s == "Add Location") {
   ChangeForm(addLocation)
   }
-  if(s == "Search Activities") {
+  if(s == "Search Nearby Activities") {
   ChangeForm(searchActivities)
+  }
+  if(s == "Search Ticketmaster Events") {
+  ChangeForm(searchTicketmasterEvents)
   }
 };
 

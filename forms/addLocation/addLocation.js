@@ -91,3 +91,7 @@ btnAddLocation.onclick = function() {
   console.log(dataJson)
 
 }
+
+addLocation.onshow=function(){
+  txtEnterLocation_contents.style.height = "calc(100% - 20px)"
+}

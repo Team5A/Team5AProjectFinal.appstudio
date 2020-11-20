@@ -29,11 +29,11 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "Input1",
+  "id": "inptNewBucketlistName",
   "inputType": "text",
   "inputmode": "",
-  "left": 9,
-  "leftText": "User ID",
+  "left": 11,
+  "leftText": "Bucketlist Name",
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 88,
+  "top": 127,
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": 139
+  "width": 233
 }

@@ -2,7 +2,7 @@
   "!type": "Header",
   "alignContent": "",
   "alignItems": "",
-  "backgroundColor": "lightgray",
+  "backgroundColor": "#add8e6",
   "borderColor": "",
   "borderStyle": "",
   "borderWidth": "",
@@ -22,7 +22,7 @@
   "fontWeight": "bold",
   "height": "45",
   "hidden": "",
-  "id": "placeholderHeader2",
+  "id": "placeholderHeaderTicketmaster",
   "justifyContent": "",
   "left": "auto",
   "onclick": "",
@@ -38,7 +38,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "text": "",
+  "text": "Placeholder",
   "top": "auto",
   "width": "100%"
 }

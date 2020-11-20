@@ -21,7 +21,7 @@ login.onshow=function(){
     //save the sate of the customer
     potentialLogins = JSON.parse(req.responseText)
     console.log(potentialLogins)
-    console.log(potentialLogins[0])
+    //console.log(potentialLogins[0])
   } else
     console.log("error")
 }

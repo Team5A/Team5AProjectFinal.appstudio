@@ -29,11 +29,11 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "Input2",
+  "id": "inptNewCurrentDate",
   "inputType": "text",
   "inputmode": "",
-  "left": 9,
-  "leftText": "Bucketlist Name",
+  "left": 12,
+  "leftText": "Current Date",
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 138,
+  "top": 234,
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": 233
+  "width": 296
 }

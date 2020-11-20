@@ -1,21 +1,21 @@
 // use your own url copied from Postman
 
-let myYelpToken = "layzp3AYj7Cw__ZSF5gk-_NO4ewXcXdtO9jFDmSlaj93ALFcpG7WuUM4sWu7civ2P_Qw1wSSmDgFCSL0ArhGLdT7LoWA4KtUYq1JethYjJoB3aRLuH88shcC97DjXnYx"
+let myTicketmasterToken = "ikOXvanwOhK2ISGSp1wPTPPJEGkcdwUA"
 
-function onXHRLoad() {
+function onXHRLoad2() {
     let message = ""
     let apiData = JSON.parse(this.responseText)
     console.log(apiData)
-    for (i = 0; i <= apiData.businesses.length - 1; i++) {
-        console.log(`${apiData.businesses[i].name}`)
-        message = message + apiData.businesses[i].name + "\n"
+    for (i = 0; i <= apiData._embedded.events.length - 1; i++) {
+        console.log(`${apiData._embedded.events[i].name}`)
+        message = message + apiData._embedded.events[i].name + "\n"
     }
-    txtNearbyActivities.value = message
+    txtTicketmasterEvents.value = message
     // if want to add to database call a function here that does that
     // addToDatabase()
 }
 
-function callAPI(URL) {
+function callAPI2(URL) {
     var xhttp = new XMLHttpRequest();
     
     // if you need cors (you'll get a cors error if you don't have it and you need it)
@@ -28,8 +28,8 @@ function callAPI(URL) {
     // if you need to set the returned data type, use this line of code: 
     //xhttp.setRequestHeader('Content-Type', 'application/json')
     
-    // if you need authorization token (stored in myYelpToken) use this line of code: 
-    xhttp.setRequestHeader('Authorization', 'Bearer ' + myYelpToken)
+    // if you need authorization token (stored in myTicketmasterToken) use this line of code: 
+    //xhttp.setRequestHeader('Authorization', 'Bearer ' + myTicketmasterToken)
     
     // if you need a key and it's not in the url use code in one of the following
     // examples (think of headers as parameters)
@@ -43,7 +43,7 @@ function callAPI(URL) {
     */
 
     // make the API request
-    xhttp.addEventListener('load', onXHRLoad)
+    xhttp.addEventListener('load', onXHRLoad2)
     xhttp.send()
 }
 
@@ -52,15 +52,17 @@ searchActivities.onshow=function(){
 }
 
 
-btnSearchActivities.onclick=function(){
+btnSearchTicketmaster.onclick=function(){
   
-  locationYelp = inptLocation.value
-  termYelp = inptActivity.value
+  cityTicketmaster = inptCity.value
+  stateTicketmaster = inptState.value
+  keywordTicketmaster = inptKeyword.value
   
-  let requestURL = "https://api.yelp.com/v3/businesses/search?term=" + termYelp + "&" + "location=" + locationYelp
+  let requestURL = "https://app.ticketmaster.com/discovery/v2/events/?apikey=" + myTicketmasterToken + "&size=10&city=" + cityTicketmaster + "&stateCode=" + stateTicketmaster
+  /*"https://api.Ticketmaster.com/v3/businesses/search?term=" + termTicketmaster + "&" + "location=" + locationTicketmaster*/
   
   // call the API calling code above
-  callAPI(requestURL)
+  callAPI2(requestURL)
 }
 
 
