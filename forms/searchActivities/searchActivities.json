@@ -70,7 +70,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "",
+  "onshow": "searchActivities.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",

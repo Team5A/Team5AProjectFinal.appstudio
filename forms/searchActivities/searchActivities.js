@@ -47,6 +47,10 @@ function callAPI(URL) {
     xhttp.send()
 }
 
+searchActivities.onshow=function(){
+  txtNearbyActivities_contents.style.height = "calc(100% - 20px)"
+}
+
 
 btnSearchActivities.onclick=function(){
   
@@ -58,3 +62,5 @@ btnSearchActivities.onclick=function(){
   // call the API calling code above
   callAPI(requestURL)
 }
+
+
