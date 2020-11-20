@@ -27,6 +27,9 @@ hamburgerGlobal.onclick = function(s) {
   if(s == "Search Nearby Activities") {
   ChangeForm(searchActivities)
   }
+  if(s == "Search Ticketmaster Events") {
+  ChangeForm(searchTicketmasterEvents)
+  }
 };
 
 

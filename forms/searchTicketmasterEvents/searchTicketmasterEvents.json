@@ -14,55 +14,64 @@
       "!type": "External",
       "file": [
         "forms",
-        "addLocation",
+        "searchTicketmasterEvents",
         "Elements",
-        "placeholderHeader2.json"
+        "placeholderHeaderTicketmaster.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "addLocation",
+        "searchTicketmasterEvents",
         "Elements",
-        "txtEnterLocation.json"
+        "btnSearchTicketmaster.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "addLocation",
+        "searchTicketmasterEvents",
         "Elements",
-        "btnSubmitLocation.json"
+        "txtTicketmasterEvents.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "addLocation",
+        "searchTicketmasterEvents",
         "Elements",
-        "btnStopLocation.json"
+        "inptCity.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "addLocation",
+        "searchTicketmasterEvents",
         "Elements",
-        "btnAddLocation.json"
+        "inptKeyword.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "searchTicketmasterEvents",
+        "Elements",
+        "inptState.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 460,
-  "designWidth": 320,
+  "designHeight": 0,
+  "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "addLocation",
+  "id": "searchTicketmasterEvents",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
@@ -70,7 +79,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "addLocation.onshow()",
+  "onshow": "searchActivities.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",
