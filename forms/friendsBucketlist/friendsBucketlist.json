@@ -35,42 +35,6 @@
         "forms",
         "friendsBucketlist",
         "Elements",
-        "btnFriends1.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "friendsBucketlist",
-        "Elements",
-        "btnFriends2.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "friendsBucketlist",
-        "Elements",
-        "btnFriends3.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "friendsBucketlist",
-        "Elements",
-        "btnFriends4.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "friendsBucketlist",
-        "Elements",
         "swtFlip1.json"
       ]
     },
@@ -98,7 +62,7 @@
   "designWidth": 800,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 460,
+  "height": "460",
   "id": "friendsBucketlist",
   "language": "JavaScript",
   "left": 0,

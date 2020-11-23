@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnStopLocation",
-  "left": 177,
+  "left": "auto",
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -55,12 +55,12 @@
   "popPosition": "",
   "popStyle": "popover",
   "popTitle": "Title",
-  "right": "auto",
+  "right": "5%",
   "script": "",
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
   "top": 287,
   "value": "Cancel",
-  "width": 108
+  "width": "auto"
 }

@@ -1,6 +1,6 @@
 {
   "!type": "Input_bs4",
-  "align": "",
+  "align": "text-align:center; ",
   "attributes": "",
   "autocapitalize": "",
   "autocomplete": "",
@@ -32,7 +32,7 @@
   "id": "inptEventName",
   "inputType": "text",
   "inputmode": "",
-  "left": 4,
+  "left": "5%",
   "leftText": "Bucketlist Name",
   "mAll": "",
   "mBottom": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 96,
+  "top": "190",
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": 269
+  "width": "90%"
 }

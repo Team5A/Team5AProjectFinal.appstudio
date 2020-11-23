@@ -19,18 +19,15 @@ let columnsFriendsEvents = [
             {title: "Date Added"},
             {title: "Date Completed"}
         ];
-/*
-function MainFriends() {
-  updateFriendsTable();
-  }
-*/
+
+
 function updateFriendsTable(Events) {
   friendsDataTable.settings.columns = columnsFriendsEvents;
   friendsDataTable.settings.data = Events;
   friendsDataTable.build();
   }
 
-
+/*
 friendsDataTable.onclick = function(event) {
   if(typeof(event.target._DT_CellIndex) != "object" ) { return; }
   var row,col;
@@ -41,44 +38,12 @@ friendsDataTable.onclick = function(event) {
   eventDescFriend = currentFriendsEvents[row][col + 1]
   ChangeForm(eventDetails)
 };
-
-
-
-
-btnFriends1.onclick = function() {
-  currentFriendsEvents[0][0] += "+"; //Just to make a change to the table
-  updateFriendsTable();
-};
-
-btnFriends2.onclick = function() {
-  var table = $("#friendsDataTable").DataTable();
-  table.clear();
-
-  friendsDataTable.settings.data = JSON.parse(dataJson);
-  friendsDataTable.settings.data[0][0] = "George";
-  setTimeout(loadFriendsTable, 50);
-};
+*/
 
 function loadFriendsTable() {
   var table = $("#friendsDataTable").DataTable();
   table.rows.add(friendsDataTable.settings.data).draw();
 }
-
-btnFriends3.onclick = function() {
-  var table;
-   table = $("#friendsDataTable").DataTable();
-   $(table.rows().nodes()).removeClass("highlight");
-   $(table.cells().nodes()).removeClass("highlight");
-   $(table.column(2).nodes()).addClass("highlight");
-};
-
-btnFriends4.onclick = function() {
- var table;
-   table = $("#friendsDataTable").DataTable();
-   $(table.rows().nodes()).removeClass("highlight");
-   $(table.cells().nodes()).removeClass("highlight");
-   $(table.row(2).nodes()).addClass("highlight");
-};
 
 swtFlip1.onchange = function() {
   friendsDataTable.settings.ordering = swtFlip1.value;
@@ -100,10 +65,6 @@ friendsBucketlist.onshow=function(){
   
   console.log(accountName)
   
-  /*
-  accountName = "JPlummer"
-  query = "SELECT event_name, description, date_added, date_completed FROM `events` e INNER JOIN bucketlists b ON e.bucket_id = b.bucket_id INNER JOIN `user` u ON u.user_id = b.user_id WHERE u.username = '" + accountName +  "';"
-  */
   query = "SELECT CONCAT(first_name, ' ',last_name) AS 'Name', e.event_name, e.description, e.date_added, e.date_completed FROM `events` e INNER JOIN bucketlists b ON e.bucket_id = b.bucket_id INNER JOIN `user` u ON u.user_id = b.user_id INNER JOIN friends f ON f.user_id = u.user_id WHERE f.friend_id IN (SELECT user_id FROM `user` WHERE username = '" + accountName + "');"
   
   console.log(query)
@@ -120,6 +81,7 @@ friendsBucketlist.onshow=function(){
   console.log(dataJson)
 
   updateFriendsTable(currentFriendsEvents)
+  
 }
 
 

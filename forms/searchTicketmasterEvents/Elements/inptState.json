@@ -32,7 +32,7 @@
   "id": "inptState",
   "inputType": "text",
   "inputmode": "",
-  "left": "13",
+  "left": "5%",
   "leftText": "Enter State:",
   "mAll": "",
   "mBottom": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": "60",
+  "top": "120",
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": "auto"
+  "width": "90%"
 }

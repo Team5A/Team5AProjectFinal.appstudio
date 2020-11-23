@@ -4,11 +4,11 @@ let myTicketmasterToken = "ikOXvanwOhK2ISGSp1wPTPPJEGkcdwUA"
 
 function onXHRLoad2() {
     let message = ""
-    let apiData = JSON.parse(this.responseText)
-    console.log(apiData)
-    for (i = 0; i <= apiData._embedded.events.length - 1; i++) {
-        console.log(`${apiData._embedded.events[i].name}`)
-        message = message + apiData._embedded.events[i].name + "\n"
+    let apiData2 = JSON.parse(this.responseText)
+    console.log(apiData2)
+    for (i = 0; i <= apiData2._embedded.events.length - 1; i++) {
+        console.log(`${apiData2._embedded.events[i].name}`)
+        message = message + apiData2._embedded.events[i].name + "\n"
     }
     txtTicketmasterEvents.value = message
     // if want to add to database call a function here that does that

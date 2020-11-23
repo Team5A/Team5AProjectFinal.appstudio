@@ -1,6 +1,6 @@
 {
   "!type": "Input_bs4",
-  "align": "",
+  "align": "text-align:center; ",
   "attributes": "",
   "autocapitalize": "",
   "autocomplete": "",
@@ -25,14 +25,14 @@
   "footer": "",
   "header": "",
   "headerCols": 2,
-  "height": 52,
+  "height": "auto",
   "hidden": "",
   "icon": "",
   "iconTitle": "",
   "id": "inptCurrentDate",
   "inputType": "text",
   "inputmode": "",
-  "left": 2,
+  "left": "5%",
   "leftText": "Current Date (yyyy-mm-dd)",
   "mAll": "",
   "mBottom": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 188,
+  "top": "290",
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": 384
+  "width": "90%"
 }
