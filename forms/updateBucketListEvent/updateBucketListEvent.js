@@ -10,9 +10,9 @@ updateBucketListEvent.onshow = function() {
   query = "SELECT `event_name` from `events`"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
   
-  if (req.status == 200) { //transit worked.
+if (req.status == 200) { //transit worked.
     results = JSON.parse(req.responseText)
-  }
+    }
   if (results.length == 0) {
   } else {
     //a loop that adds all the customers in the array to the dropdown.
