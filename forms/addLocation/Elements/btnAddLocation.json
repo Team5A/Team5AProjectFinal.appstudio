@@ -24,12 +24,12 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": 32,
+  "height": "auto",
   "hidden": "",
   "icon": "",
   "iconTitle": "",
   "id": "btnAddLocation",
-  "left": 82,
+  "left": "5%",
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -62,5 +62,5 @@
   "toggleControl": "",
   "top": 349,
   "value": "Add Location",
-  "width": 137
+  "width": "auto"
 }

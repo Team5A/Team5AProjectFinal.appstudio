@@ -32,7 +32,7 @@
   "id": "inptNewBucketlistDescription",
   "inputType": "text",
   "inputmode": "",
-  "left": 11,
+  "left": "5%",
   "leftText": "Bucketlist Description",
   "mAll": "",
   "mBottom": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 181,
+  "top": "230",
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": "auto"
+  "width": "90%"
 }

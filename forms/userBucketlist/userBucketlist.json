@@ -26,7 +26,7 @@
         "forms",
         "userBucketlist",
         "Elements",
-        "Container1.json"
+        "userContainer.json"
       ]
     },
     {
@@ -35,7 +35,7 @@
         "forms",
         "userBucketlist",
         "Elements",
-        "Button1.json"
+        "swtFlipUser1.json"
       ]
     },
     {
@@ -44,7 +44,7 @@
         "forms",
         "userBucketlist",
         "Elements",
-        "Button2.json"
+        "swtFlipUser2.json"
       ]
     },
     {
@@ -53,43 +53,7 @@
         "forms",
         "userBucketlist",
         "Elements",
-        "Button3.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "userBucketlist",
-        "Elements",
-        "Button4.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "userBucketlist",
-        "Elements",
-        "Fliptoggle1.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "userBucketlist",
-        "Elements",
-        "Fliptoggle4.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "userBucketlist",
-        "Elements",
-        "Fliptoggle5.json"
+        "swtFlipUser3.json"
       ]
     }
   ],
@@ -98,7 +62,7 @@
   "designWidth": 800,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 460,
+  "height": "460",
   "id": "userBucketlist",
   "language": "JavaScript",
   "left": 0,

@@ -4,11 +4,11 @@ let myTicketmasterToken = "ikOXvanwOhK2ISGSp1wPTPPJEGkcdwUA"
 
 function onXHRLoad2() {
     let message = ""
-    let apiData = JSON.parse(this.responseText)
-    console.log(apiData)
-    for (i = 0; i <= apiData._embedded.events.length - 1; i++) {
-        console.log(`${apiData._embedded.events[i].name}`)
-        message = message + apiData._embedded.events[i].name + "\n"
+    let apiData2 = JSON.parse(this.responseText)
+    console.log(apiData2)
+    for (i = 0; i <= apiData2._embedded.events.length - 1; i++) {
+        console.log(`${apiData2._embedded.events[i].name}`)
+        message = message + apiData2._embedded.events[i].name + "\n"
     }
     txtTicketmasterEvents.value = message
     // if want to add to database call a function here that does that
@@ -59,8 +59,7 @@ btnSearchTicketmaster.onclick=function(){
   keywordTicketmaster = inptKeyword.value
   
   let requestURL = "https://app.ticketmaster.com/discovery/v2/events/?apikey=" + myTicketmasterToken + "&size=10&city=" + cityTicketmaster + "&stateCode=" + stateTicketmaster
-  /*"https://api.Ticketmaster.com/v3/businesses/search?term=" + termTicketmaster + "&" + "location=" + locationTicketmaster*/
-  
+
   // call the API calling code above
   callAPI2(requestURL)
 }

@@ -1,6 +1,6 @@
 {
   "!type": "Input_bs4",
-  "align": "",
+  "align": "text-align:center; ",
   "attributes": "",
   "autocapitalize": "",
   "autocomplete": "",
@@ -25,14 +25,14 @@
   "footer": "",
   "header": "",
   "headerCols": 2,
-  "height": 51,
+  "height": "auto",
   "hidden": "",
   "icon": "",
   "iconTitle": "",
   "id": "inptUserID",
   "inputType": "text",
   "inputmode": "",
-  "left": 4,
+  "left": "5%",
   "leftText": "userID",
   "mAll": "",
   "mBottom": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 53,
+  "top": "140",
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": 139
+  "width": "90%"
 }

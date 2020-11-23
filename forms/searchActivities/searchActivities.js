@@ -13,6 +13,7 @@ function onXHRLoad() {
     txtNearbyActivities.value = message
     // if want to add to database call a function here that does that
     // addToDatabase()
+
 }
 
 function callAPI(URL) {
@@ -61,6 +62,7 @@ btnSearchActivities.onclick=function(){
   
   // call the API calling code above
   callAPI(requestURL)
+  
 }
 
 

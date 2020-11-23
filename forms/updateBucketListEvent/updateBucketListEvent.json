@@ -34,15 +34,6 @@
         "forms",
         "updateBucketListEvent",
         "Elements",
-        "lblUpdate.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "updateBucketListEvent",
-        "Elements",
         "inptNewBucketlistName.json"
       ]
     },
@@ -81,14 +72,23 @@
         "Elements",
         "txtUpdatedEvent.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "updateBucketListEvent",
+        "Elements",
+        "altUpdate.json"
+      ]
     }
   ],
   "class": "",
-  "designHeight": 320,
-  "designWidth": 460,
+  "designHeight": 460,
+  "designWidth": 320,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 320,
+  "height": "460",
   "id": "updateBucketListEvent",
   "language": "JavaScript",
   "left": "0",
@@ -106,5 +106,5 @@
   "style": "",
   "theme": "",
   "top": "0",
-  "width": 460
+  "width": "320"
 }

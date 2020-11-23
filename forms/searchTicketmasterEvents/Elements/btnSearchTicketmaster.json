@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnSearchTicketmaster",
-  "left": 14,
+  "left": "5%",
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 214,
+  "top": "270",
   "value": "Search",
   "width": "auto"
 }
