@@ -90,6 +90,22 @@
             "searchTicketmasterEvents",
             "searchTicketmasterEvents.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "eventDetails",
+            "eventDetails.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "viewNearbyAttractions",
+            "viewNearbyAttractions.json"
+          ]
         }
       ],
       "configxml": null,
