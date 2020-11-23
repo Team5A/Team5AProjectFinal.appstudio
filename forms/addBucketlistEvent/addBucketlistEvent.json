@@ -63,14 +63,23 @@
         "Elements",
         "inptBucketDescription.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "addBucketlistEvent",
+        "Elements",
+        "altAdd.json"
+      ]
     }
   ],
   "class": "",
-  "designHeight": 320,
-  "designWidth": 460,
+  "designHeight": 460,
+  "designWidth": 320,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 320,
+  "height": "460",
   "id": "addBucketlistEvent",
   "language": "JavaScript",
   "left": "0",
@@ -88,5 +97,5 @@
   "style": "",
   "theme": "",
   "top": "0",
-  "width": 460
+  "width": "320"
 }

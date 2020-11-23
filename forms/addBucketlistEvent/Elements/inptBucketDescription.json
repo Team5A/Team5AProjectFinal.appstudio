@@ -1,6 +1,6 @@
 {
   "!type": "Input_bs4",
-  "align": "",
+  "align": "text-align:center; ",
   "attributes": "",
   "autocapitalize": "",
   "autocomplete": "",
@@ -25,14 +25,14 @@
   "footer": "",
   "header": "",
   "headerCols": 2,
-  "height": 65,
+  "height": "auto",
   "hidden": "",
   "icon": "",
   "iconTitle": "",
   "id": "inptBucketDescription",
   "inputType": "text",
   "inputmode": "",
-  "left": 1,
+  "left": "5%",
   "leftText": "Bucket Description",
   "mAll": "",
   "mBottom": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 140,
+  "top": "240",
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": 451
+  "width": "90%"
 }

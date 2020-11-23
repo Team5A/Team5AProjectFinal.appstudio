@@ -47,16 +47,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "eventDetails",
-            "eventDetails.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "addLocation",
-            "addLocation.json"
+            "friendsBucketlist",
+            "friendsBucketlist.json"
           ]
         },
         {
@@ -71,16 +63,16 @@
           "!type": "External",
           "file": [
             "forms",
-            "viewNearbyAttractions",
-            "viewNearbyAttractions.json"
+            "updateBucketListEvent",
+            "updateBucketListEvent.json"
           ]
         },
         {
           "!type": "External",
           "file": [
             "forms",
-            "friendsBucketlist",
-            "friendsBucketlist.json"
+            "addLocation",
+            "addLocation.json"
           ]
         },
         {
@@ -95,16 +87,24 @@
           "!type": "External",
           "file": [
             "forms",
-            "updateBucketListEvent",
-            "updateBucketListEvent.json"
+            "searchTicketmasterEvents",
+            "searchTicketmasterEvents.json"
           ]
         },
         {
           "!type": "External",
           "file": [
             "forms",
-            "searchTicketmasterEvents",
-            "searchTicketmasterEvents.json"
+            "eventDetails",
+            "eventDetails.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "viewNearbyAttractions",
+            "viewNearbyAttractions.json"
           ]
         }
       ],
@@ -170,7 +170,7 @@
       "useStrict": "",
       "version": "1.0.0",
       "viewportFit": "cover",
-      "voltAppId": "",
+      "voltAppId": "AjCx5o",
       "voltDomain": ""
     }
   ],

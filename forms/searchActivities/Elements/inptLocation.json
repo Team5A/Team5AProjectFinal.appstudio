@@ -32,7 +32,7 @@
   "id": "inptLocation",
   "inputType": "text",
   "inputmode": "",
-  "left": 12,
+  "left": "5%",
   "leftText": "Enter Location:",
   "mAll": "",
   "mBottom": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 104,
+  "top": "120",
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": "auto"
+  "width": "90%"
 }

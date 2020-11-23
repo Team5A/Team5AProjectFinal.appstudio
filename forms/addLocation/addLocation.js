@@ -1,12 +1,4 @@
-/* 
-1) create on show to help us find current location (in geolocation.2)
-2)Set location variables to global. Don't create them anywhere else (don't use let in front of any thing else with 
-lat and long)
-3) 
 
-
-
-*/
 req = ""
 query = ""
 results = ""
@@ -57,8 +49,8 @@ btnStopLocation.onclick = function() {
 function onGeolocation(location) {
   longitude = "Longitude: " + location.coords.longitude  +  '\n';
   latitude = "Latitude: " + location.coords.latitude  +  '\n';
-  /*passLongitude = location.coords.longitude
-  passLatitude = location.coords.latitude*/
+  passLongitude = location.coords.longitude
+  passLatitude = location.coords.latitude
  //different browsers return the timestamp in different formats.
  //this converts it if necessary.
 

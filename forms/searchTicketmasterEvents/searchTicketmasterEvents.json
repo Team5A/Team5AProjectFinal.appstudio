@@ -63,14 +63,23 @@
         "Elements",
         "inptState.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "searchTicketmasterEvents",
+        "Elements",
+        "altTicketmasterEvents.json"
+      ]
     }
   ],
   "class": "",
-  "designHeight": 0,
+  "designHeight": 460,
   "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 460,
+  "height": "500",
   "id": "searchTicketmasterEvents",
   "language": "JavaScript",
   "left": "0",

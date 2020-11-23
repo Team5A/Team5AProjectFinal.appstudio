@@ -14,10 +14,10 @@
   "fontSize": "",
   "fontStyle": "",
   "fontWeight": "",
-  "height": 132,
+  "height": "120",
   "hidden": "",
   "id": "Image1",
-  "left": 100,
+  "left": "35%",
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -48,6 +48,6 @@
   "shape": "",
   "src": "Images/clipart708824.png",
   "style": "",
-  "top": 4,
-  "width": 119
+  "top": "10",
+  "width": "auto"
 }

@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnAddEvent",
-  "left": 319,
+  "left": "auto",
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -55,12 +55,12 @@
   "popPosition": "",
   "popStyle": "popover",
   "popTitle": "Title",
-  "right": "auto",
+  "right": "5%",
   "script": "",
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 265,
+  "top": 340,
   "value": "Add Event",
   "width": "auto"
 }

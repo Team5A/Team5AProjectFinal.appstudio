@@ -32,7 +32,7 @@
   "id": "inptActivity",
   "inputType": "text",
   "inputmode": "",
-  "left": 13,
+  "left": "5%",
   "leftText": "Enter Activity:",
   "mAll": "",
   "mBottom": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 160,
+  "top": "170",
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": "auto"
+  "width": "90%"
 }

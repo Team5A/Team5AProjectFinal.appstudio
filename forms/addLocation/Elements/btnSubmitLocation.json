@@ -24,12 +24,12 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": 33,
+  "height": "auto",
   "hidden": "",
   "icon": "",
   "iconTitle": "",
   "id": "btnSubmitLocation",
-  "left": 9,
+  "left": "5%",
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -62,5 +62,5 @@
   "toggleControl": "",
   "top": 289,
   "value": "View Details",
-  "width": 120
+  "width": "auto"
 }

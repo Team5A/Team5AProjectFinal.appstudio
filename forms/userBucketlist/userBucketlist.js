@@ -23,13 +23,13 @@ function Main() {
   }
 
 function updateTable(Events) {
-  DataTable1.settings.columns = columns1;
-  DataTable1.settings.data = Events;
-  DataTable1.build();
+  userDataTable.settings.columns = columns1;
+  userDataTable.settings.data = Events;
+  userDataTable.build();
   }
 
-
-DataTable1.onclick = function(event) {
+/*
+userDataTable.onclick = function(event) {
   if(typeof(event.target._DT_CellIndex) != "object" ) { return; }
   var row,col;
   row = event.target._DT_CellIndex.row;
@@ -39,57 +39,25 @@ DataTable1.onclick = function(event) {
   eventDesc = currentUserEvents[row][col + 1]
   ChangeForm(eventDetails)
 };
-
-
-
-
-Button1.onclick = function() {
-  currentUserEvents[0][0] += "+"; //Just to make a change to the table
-  updateTable();
-};
-
-Button2.onclick = function() {
-  var table = $("#DataTable1").DataTable();
-  table.clear();
-
-  DataTable1.settings.data = JSON.parse(dataJson);
-  DataTable1.settings.data[0][0] = "George";
-  setTimeout(loadTable, 50);
-};
+*/
 
 function loadTable() {
-  var table = $("#DataTable1").DataTable();
-  table.rows.add(DataTable1.settings.data).draw();
+  var table = $("#userDataTable").DataTable();
+  table.rows.add(userDataTable.settings.data).draw();
 }
 
-Button3.onclick = function() {
-  var table;
-   table = $("#DataTable1").DataTable();
-   $(table.rows().nodes()).removeClass("highlight");
-   $(table.cells().nodes()).removeClass("highlight");
-   $(table.column(2).nodes()).addClass("highlight");
-};
-
-Button4.onclick = function() {
- var table;
-   table = $("#DataTable1").DataTable();
-   $(table.rows().nodes()).removeClass("highlight");
-   $(table.cells().nodes()).removeClass("highlight");
-   $(table.row(2).nodes()).addClass("highlight");
-};
-
-Fliptoggle1.onchange = function() {
-  DataTable1.settings.ordering = Fliptoggle1.value;
+swtFlipUser1.onchange = function() {
+  userDataTable.settings.ordering = swtFlipUser1.value;
   updateTable();
 };
 
-Fliptoggle4.onchange = function() {
-  DataTable1.settings.paging = Fliptoggle4.value;
+swtFlipUser2.onchange = function() {
+  userDataTable.settings.paging = swtFlipUser2.value;
   updateTable();
 };
 
-Fliptoggle5.onchange = function() {
-  DataTable1.settings.searching = Fliptoggle5.value;
+swtFlipUser3.onchange = function() {
+  userDataTable.settings.searching = swtFlipUser3.value;
   updateTable();
 };
 

@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnUpdateItem",
-  "left": 321,
+  "left": "auto",
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -55,12 +55,12 @@
   "popPosition": "",
   "popStyle": "popover",
   "popTitle": "Title",
-  "right": "auto",
+  "right": "5%",
   "script": "",
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 276,
+  "top": 330,
   "value": "Update Item",
   "width": 119
 }

@@ -54,14 +54,23 @@
         "Elements",
         "inptActivity.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "searchActivities",
+        "Elements",
+        "altSearchActivities.json"
+      ]
     }
   ],
   "class": "",
-  "designHeight": 0,
+  "designHeight": 460,
   "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 460,
+  "height": "460",
   "id": "searchActivities",
   "language": "JavaScript",
   "left": "0",

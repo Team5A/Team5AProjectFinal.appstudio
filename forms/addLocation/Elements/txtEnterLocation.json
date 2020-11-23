@@ -29,7 +29,7 @@
   "iconTitle": "",
   "id": "txtEnterLocation",
   "inputmode": "",
-  "left": 9,
+  "left": "5%",
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "pLeft": "",
   "pRight": "",
   "pTop": "",
-  "placeholder": "Enter text here",
+  "placeholder": "(Click \"View Details\" below)",
   "popBody": "Body",
   "popClose": "hover",
   "popPosition": "",
@@ -77,5 +77,5 @@
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": 304
+  "width": "90%"
 }
