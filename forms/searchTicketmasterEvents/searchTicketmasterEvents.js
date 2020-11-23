@@ -59,8 +59,7 @@ btnSearchTicketmaster.onclick=function(){
   keywordTicketmaster = inptKeyword.value
   
   let requestURL = "https://app.ticketmaster.com/discovery/v2/events/?apikey=" + myTicketmasterToken + "&size=10&city=" + cityTicketmaster + "&stateCode=" + stateTicketmaster
-  /*"https://api.Ticketmaster.com/v3/businesses/search?term=" + termTicketmaster + "&" + "location=" + locationTicketmaster*/
-  
+
   // call the API calling code above
   callAPI2(requestURL)
 }
